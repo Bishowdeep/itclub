@@ -3,115 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIT IT Club - Matrix Hierarchy</title>
+    <meta name="description" content="Official MIT IT Club - Fostering technological innovation and digital leadership">
+    <meta name="keywords" content="MIT IT Club, Technology Club, Programming, Nepal Tech, Student Organization">
+    <meta property="og:title" content="MIT IT Club">
+    <meta property="og:description" content="Premier technology club of MIT">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>MIT IT Club - Technology & Innovation Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <canvas class="matrix-bg" id="matrix"></canvas>
     
     <nav>
-        <div class="logo">MIT IT CLUB</div>
-        <div class="tagline">// Code · Connect · Create //</div>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Club Logo" class="logo-img">
+                <h1>MIT IT CLUB</h1>
+            </div>
+            <div class="tagline">// CODE · CREATE · CONQUER //</div>
+        </div>
     </nav>
 
-    <div class="org-tree">
-        <!-- Leadership Tier -->
-        <div class="tier tier-1">
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/asim.jpg" alt="Asim Balami">
-                        <h3>Asim Balami</h3>
-                        <p>President</p>
+    <main>
+        <section class="org-hierarchy">
+            <div class="tier tier-1">
+                <!-- Leadership Tier -->
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/asim.jpg" alt="Asim Balami">
+                            <h3>Asim Balami</h3>
+                            <p>President</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Strategic Leadership & Vision</p>
+                        </div>
                     </div>
-                    <div class="card-back">
-                        <p>Strategic Vision & Leadership</p>
+                </div>
+        
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/sandesh.jpg" alt="Sandesh Shrestha">
+                            <h3>Sandesh Shrestha</h3>
+                            <p>Secretary</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Operations & Management</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        
+            <div class="tier tier-2">
+                <!-- Technical & Social Media Team -->
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/bishowdeep.jpg" alt="Bishowdeep Sharma">
+                            <h3>Bishowdeep Sharma</h3>
+                            <p>Code & IT Lead</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Technical Architect</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/uchit.jpg" alt="Uchit Joshi">
+                            <h3>Uchit Joshi</h3>
+                            <p>Social Media Lead</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Digital Strategy Head</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/prashanna.jpg" alt="Prashanna Karki">
+                            <h3>Prashanna Karki</h3>
+                            <p>Social Media Handler</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/sangam.jpg" alt="Sangam Pandey">
+                            <h3>Sangam Pandey</h3>
+                            <p>Social Media Handler</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Community Manager</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="member-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="members/bandhana.jpg" alt="Bandhana Pandey">
+                            <h3>Bandhana Pandey</h3>
+                            <p>Club Activist</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Event Coordinator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2 class="section-title">Our Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="projects/workshop.jpg" alt="Coding Workshop">
+                    <div class="project-content">
+                        <h3>Tech Workshops</h3>
+                        <p>Hands-on sessions on emerging technologies</p>
+                    </div>
+                </article>
+                <!-- Add more project cards -->
+            </div>
+        </section>
+    </main>
 
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/sandesh.jpg" alt="Sandesh Shrestha">
-                        <h3>Sandesh Shrestha</h3>
-                        <p>Secretary</p>
-                    </div>
-                    <div class="card-back">
-                        <p>Operations & Management</p>
-                    </div>
-                </div>
-            </div>
+    <footer class="footer">
+        <div class="social-container">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
         </div>
-
-        <!-- Team Members Tier -->
-        <div class="tier tier-2">
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/bishowdeep.jpg" alt="Bishowdeep Sharma">
-                        <h3>Bishowdeep Sharma</h3>
-                        <p>Code & IT Lead</p>
-                    </div>
-                    <div class="card-back">
-                        <p>Technical Infrastructure</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/uchit.jpg" alt="Uchit Joshi">
-                        <h3>Uchit Joshi</h3>
-                        <p>Social Media Lead</p>
-                    </div>
-                    <div class="card-back">
-                        <p>Digital Strategy</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/prashanna.jpg" alt="Prashanna Karki">
-                        <h3>Prashanna Karki</h3>
-                        <p>Social Media Handler</p>
-                    </div>
-                    <div class="card-back">
-                        <p>Content Creation</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/sangam.jpg" alt="Sangam Pandey">
-                        <h3>Sangam Pandey</h3>
-                        <p>Social Media Handler</p>
-                    </div>
-                    <div class="card-back">
-                        <p>Community Engagement</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="member-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="members/bandhana.jpg" alt="Bandhana Pandey">
-                        <h3>Bandhana Pandey</h3>
-                        <p>Club Activist</p>
-                    </div>
-                    <div class="card-back">
-                        <p>Event Coordination</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <p class="copyright">&copy; 2023 MIT IT Club. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
