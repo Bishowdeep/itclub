@@ -1,1 +1,1 @@
-mit website for it club
+Compile MIT website for MIT
